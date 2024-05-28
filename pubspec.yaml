@@ -1,0 +1,29 @@
+name: bmi_calculator
+description: ""
+version: 1.0.0
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  intl:
+  path: ^1.9.0
+  uuid: ^4.4.0
+  sqflite: ^2.3.3
+  provider: ^6.1.2
+  cupertino_icons: ^1.0.6
+  flutter_animate: ^4.5.0
+  font_awesome_flutter: ^10.7.0
+  shared_preferences: ^2.2.3
+  syncfusion_flutter_sliders: ^25.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
